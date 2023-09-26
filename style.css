@@ -298,6 +298,77 @@ footer {
   border-radius: 32px;
 }
 
+/* Platform Container */
+.platform-container {
+  padding: 8.875rem 0rem;
+  color: var(--gray-one);
+  gap: 5rem;
+}
+
+.platform-container h3 {
+  text-align: center;
+  font-size: var(--font-header-xl);
+  line-height: var(--line-height-xxxl);
+  font-weight: 600;
+}
+
+/* Feature Desc Container */
+.feature-desc-container {
+  color: var(--black-color);
+  padding: 3.125rem;
+  text-align: center;
+  font-size: var(--font-subheader-l);
+}
+
+.feature-desc-container h4 {
+  font-weight: 400;
+  line-height: var(--line-height-s);
+}
+
+.feature-desc-container h4 span {
+  color: var(--primary-color);
+  font-weight: 500;
+  line-height: var(--line-height-s);
+}
+
+.platform-desc-container {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.desc-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+.desc-wrapper p:first-child {
+  font-weight: 500;
+  font-size: var(--font-subheader-l);
+  line-height: var(--line-height-s);
+  color: var(--gray-one);
+}
+
+.desc-wrapper p:last-child {
+  font-weight: 400;
+  font-size: var(--font-subheader-m);
+  line-height: var(--line-height-sm);
+  color: var(--gray-three);
+}
+
+.platform-desc-img-container {
+  padding: 0.563rem;
+  background-color: #f1f7ff;
+  border-radius: 8px;
+}
+
 /* Footer */
 footer .desc-container {
   display: flex;
@@ -338,11 +409,24 @@ footer .desc-container {
 
 .navbar_link-items-footer {
   display: flex;
-  justify-content: space-evenly;
-  flex: 0.4;
-  gap: 2rem;
+  justify-content: center;
+  flex: 0.6;
+  gap: 6rem;
 }
 
 .social-media-container {
-  flex: 0.09;
+  flex: 0.1;
+}
+
+/* Copyright */
+.copyright-container {
+  padding: 1.75rem;
+  text-align: center;
+}
+
+.copyright-container p {
+  font-size: var(--font-subheader-m);
+  color: var(--gray-six);
+  line-height: var(--line-height-sm);
+  font-weight: 400;
 }
