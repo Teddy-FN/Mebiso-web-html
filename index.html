@@ -10,6 +10,9 @@
 
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
     <!-- Nav -->
@@ -71,7 +74,7 @@
         <div class="row search-input-container">
           <input type="text" placeholder="Nama Merk / Nomor Permohonan" />
           <button class="btn-search row">
-            <img src="./assets/Icon.svg" alt="Search Icons" />
+            <i data-feather="search" class="icon-white"></i>
             <p>Cek Merek</p>
           </button>
         </div>
@@ -160,19 +163,19 @@
       <div class="container">
         <div class="btn-menu-product-container">
           <button class="row btn-menu active" id="btn-one">
-            <img src="./assets/menu.svg" alt="Search Icons" />
+            <i data-feather="menu" class="icon-white"></i>
             <p>Pencarian Merek</p>
           </button>
           <button class="row btn-menu" id="btn-two">
-            <img src="./assets/Icon.svg" alt="Search Icons" />
+            <i data-feather="search" class="icon-white"></i>
             <p>Cari Kelas Merek</p>
           </button>
           <button class="row btn-menu" id="btn-three">
-            <img src="./assets/eye.svg" alt="Search Icons" />
+            <i data-feather="eye" class="icon-white"></i>
             <p>Monitoring Merek</p>
           </button>
           <button class="row btn-menu" id="btn-four">
-            <img src="./assets/padlock-icon.svg" alt="Search Icons" />
+            <i data-feather="lock" class="icon-white"></i>
             <p>Proteksi Merek</p>
           </button>
         </div>
@@ -254,22 +257,15 @@
     <!-- Testimony -->
     <section class="product-container">
       <div class="container">
-        <div class="btn-menu-product-container">
-          <button class="row btn-menu">
-            <img src="./assets/menu.svg" alt="Search Icons" />
-            <p>Pencarian Merek</p>
+        <div class="row">
+          <button class="btn-menu row">
+            <i data-feather="arrow-left" class="icon-white"></i>
+            <p>Sebelumnya</p>
           </button>
-          <button class="row btn-menu active">
-            <img src="./assets/Icon.svg" alt="Search Icons" />
-            <p>Cari Kelas Merek</p>
-          </button>
-          <button class="row btn-menu">
-            <img src="./assets/eye.svg" alt="Search Icons" />
-            <p>Monitoring Merek</p>
-          </button>
-          <button class="row btn-menu">
-            <img src="./assets/padlock-icon.svg" alt="Search Icons" />
-            <p>Proteksi Merek</p>
+          <h2 class="testimony-title">Lihat Ketika Mebiso Beraksi</h2>
+          <button class="btn-menu row">
+            <p>Selanjutnya</p>
+            <i data-feather="arrow-right" class="icon-white"></i>
           </button>
         </div>
 
@@ -379,5 +375,10 @@
 
     <!-- Script Js file -->
     <script src="./script.js"></script>
+
+    <!-- Script feather icons -->
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
