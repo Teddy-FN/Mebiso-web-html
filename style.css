@@ -115,6 +115,10 @@ footer {
   border-radius: 8px;
 }
 
+.icon-white {
+  color: var(--white-color);
+}
+
 .white-btn {
   background-color: var(--white-color);
   color: var(--primary-color);
@@ -403,6 +407,7 @@ footer {
   justify-content: center;
 }
 
+/* Easy */
 .easy-section {
   text-align: center;
   display: flex;
@@ -422,6 +427,14 @@ footer {
   font-size: var(--font-subheader-m);
   line-height: var(--line-height-sm);
   color: var(--gray-three);
+}
+
+/* Testimony */
+.testimony-title {
+  font-weight: 600;
+  font-size: var(--font-header-xl);
+  color: var(--gray-six);
+  line-height: var(--line-height-xxxl);
 }
 
 /* Tools */
